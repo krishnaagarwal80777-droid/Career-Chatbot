@@ -27,7 +27,7 @@ def push(text):
 
 class Me:
     def __init__(self):
-        self.name = "Aryan Lamba"
+        self.name = "Krishna Agarwal"
         self.api_key = GEMINI_API_KEY
         self.base_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
         reader = PdfReader("me/Linkdin.pdf")
